@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KULTURUN - Website </title>
+
+  <!-- 
+    - favicon
+  -->
+ <head>
+     
+     <link rel="icon" href="./favicon-32x32.png" type="image/png">
+     <title>KULTURUN - Website</title>
+     <!-- Other head elements -->
+ </head>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/geometric-patterns.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/kultu_run_hero.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    
+    <div class="geometric-header"></div>
+    <br>
+
+    <div class="container">
+
+      <a href="#" class="logo">
+        
+        <span class="span">KULTURUN</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Events</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>News</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3xa-CkYOWc02mkq1eLV7HrC4790q7TdV4xowx8Pmyweeug/viewform" target="_blank" class="btn btn-secondary">Join Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero geo-bg" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <span class="kisig">Kisig</span>
+              <span class="kultura">Kultura</span>
+              <span class="karera">Karera</span>
+            </p>
+
+            <h1 class="h1 hero-title">KultuRUN</h1>
+
+            <p class="section-text">
+              KultuRUN is an Eco-Tourism themed Fun Run where participants would be able to explore the university
+              campus, and experience the rich Filipino culture through vibrant themed water stations inspired by many
+colorful and culturally significant festivals throughout the Philippines.
+            </p>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3xa-CkYOWc02mkq1eLV7HrC4790q7TdV4xowx8Pmyweeug/viewform" class="btn btn-primary">REGISTER NOW</a>
+
+          </div>
+
+          <div class="hero-banner">
+            <div class="blue-accent"></div>
+
+            <img src="./assets/images/kultu_run_hero.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <div class="hero-bg-shape"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="triangle-divider"></div>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner triangle-accent modern-card">
+            <img src="./assets/images/paw_logo.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">2nd Event</p>
+
+            <h2 class="h2 section-title">PAWSHIONISTA</h2>
+
+            <p class="section-text">
+              Pawshionista, the Sustainable Pet Fashion Show at DLSU-D Grandstand will provide a fun and engaging
+platform where pet owners can creatively dress-up their pets in Filipino culture / festival-inspired outfits
+made from upcycled / sustainable materials.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/pet-care.png" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">May 10, 2025 </h3>
+
+                  <p class="coach-title">12:30nn - 3:30 PM</p>
+                </div>
+
+              </div>
+
+              <ul class="triangle-list">
+                <li>1-3 Minutes Stage Time</li>
+                <li>Outfit Recycled Materials</li>
+                <li>1 Owner / 1 Pet ONLY</li>
+                <li>Owners wear Outfit (optional)</li>
+              </ul>
+
+            </div>
+
+            <a href="https://forms.gle/fdxE6SwYPumbifcX6" target="_blank" class="btn btn-primary">REGISTER NOW</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <div class="triangle-divider"></div>
+      <br>
+
+
+
+
+
+      <!-- 
+        - #LAKBAY LOKAL
+      -->
+
+      <section class="section about" id="lakbay-lokal" aria-label="lakbay-lokal">
+        <div class="container">
+
+          <div class="about-banner triangle-accent modern-card">
+            <img src="./assets/images/lakbay_lokal_logo.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">3rd Event</p>
+
+            <h2 class="h2 section-title">LAKBAY LOKAL</h2>
+
+            <p class="section-text">
+              The Lakbay Lokal / Local Business Bazaar at DLSU-D Track Oval will showcase an array selection of
+              locally made products and cuisine, promoting Filipino craftsmanship and sustainability. The vibrant
+              bazaars will showcase the creativity and artistry of Filipino entrepreneurs through providing a wide range
+              of environmentally responsible products, and traditional delicacies—featuring products that reflect
+              eco-conscious practices.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/lakbay_lokal_logo.png" width="65" height="65" loading="lazy" alt="Lakbay Lokal">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">May 10, 2025 </h3>
+
+                  <p class="coach-title">11:00 AM - 7:00 PM</p>
+                </div>
+
+              </div>
+
+              <ul class="triangle-list">
+                <li>Local Artisan Products</li>
+                <li>Traditional Filipino Cuisine</li>
+                <li>Eco-friendly Merchandise</li>
+                <li>Cultural Demonstrations</li>
+              </ul>
+
+            </div>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3xa-CkYOWc02mkq1eLV7HrC4790q7TdV4xowx8Pmyweeug/viewform" target="_blank" class="btn btn-secondary">RESERVE A BOOTH</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <div class="triangle-divider"></div>
+      <br>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+<div class="video-card has-before has-bg-image"
+     style="background-image: url('./assets/images/vid_banner.jpg')">
+    <h2 class="h2 card-title">Explore more about KultuRUN</h2>
+    <a href="https://www.facebook.com/share/r/1ELUjUyj87/" target="_blank">
+      <button class="play-btn" aria-label="play video">
+          <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+      </button>
+  </a>
+    <a target="_blank" href="https://www.facebook.com/share/r/1ELUjUyj87/" class="btn-link has-before">Watch More</a>
+</div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MECHANICS
+      -->
+
+<section class="section class" id="class" aria-label="mechanics">
+  <div class="container">
+
+    <p class="section-subtitle">Event Guidelines</p>
+
+    <h2 class="h2 section-title">Mechanics & Instructions</h2>
+
+    <div class="mechanics-container">
+
+      <!-- KultuRUN Mechanics -->
+      <div class="mechanics-card modern-card">
+        <div class="mechanics-image-container">
+          <img src="./assets/images/kulturun_prizes.jpg" loading="lazy" alt="KultuRUN Mechanics" class="mechanics-image">
+          <div class="event-date">May 10, 2025</div>
+        </div>
+
+        <div class="mechanics-content">
+          <div class="mechanics-header">
+            <div class="mechanics-icon">
+              <img src="./assets/images/kultu_run_hero.png" width="42" height="42" aria-hidden="true" alt="">
+            </div>
+            <h3 class="h3 mechanics-title">KultuRUN Mechanics</h3>
+          </div>
+
+          <ul class="mechanics-list">
+            <li><span class="highlight-dot"></span> Participants must wear their official racing bib in front and visible at all times to avoid an unrecorded finish.</li>
+            <li><span class="highlight-dot"></span> The official event singlet must be worn throughout the run.</li>
+            <li><span class="highlight-dot"></span> Races include 1 km, 3 km, and 5 km categories, with different start times (5K at 4:00 pm, 3K at 4:30 pm, 1K at 5:00 pm).</li>
+            <li><span class="highlight-dot"></span> Participants in the 1 km category with pets must keep them with them at all times.</li>
+            <li><span class="highlight-dot"></span> Finishers are identified by gun time, from the gun start until crossing the finish line.</li>
+          </ul>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3xa-CkYOWc02mkq1eLV7HrC4790q7TdV4xowx8Pmyweeug/viewform" target="_blank" class="mechanics-btn">
+            <span>Register Now</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+
+     <!-- Pawshionista Mechanics -->
+<div class="mechanics-card modern-card">
+  <div class="mechanics-image-container">
+    <img src="./assets/images/paw_mech.jpg" loading="lazy" alt="Pawshionista Mechanics" class="mechanics-image">
+    <div class="event-date">May 10, 2025</div>
+  </div>
+
+  <div class="mechanics-content">
+    <div class="mechanics-header">
+      <div class="mechanics-icon">
+        <img src="./assets/images/paw_logo.png" width="42" height="42" aria-hidden="true" alt="">
+      </div>
+      <h3 class="h3 mechanics-title">Pawshionista Mechanics</h3>
+    </div>
+
+    <ul class="mechanics-list">
+      <li><span class="highlight-dot"></span> Registration is from 12:00 NN to 1:00 PM; participants must be ready before the competition begins.</li>
+      <li><span class="highlight-dot"></span> Late participants have a 15-minute grace period; after that, they will be disqualified.</li>
+      <li><span class="highlight-dot"></span> Each pet owner can register only one pet (cat or dog).</li>
+      <li><span class="highlight-dot"></span> Pets must wear Filipino-inspired outfits made from recycled materials to promote sustainability.</li>
+      <li><span class="highlight-dot"></span> Participants have 1-3 minutes on stage to showcase their pet’s costume and share details.</li>
+    </ul>
+
+    <a href="https://forms.gle/fdxE6SwYPumbifcX6" target="_blank" class="mechanics-btn">
+      <span>Register Now</span>
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </a>
+  </div>
+</div>
+
+<!-- Lakbay Lokal Mechanics -->
+<div class="mechanics-card modern-card">
+  <div class="mechanics-image-container">
+    <img src="./assets/images/lakbay_lokap_map.png" loading="lazy" alt="Route Map" class="mechanics-image">
+    <div class="event-date">Lakbay Lokal Layout</div>
+  </div>
+
+  <div class="mechanics-content">
+    <div class="mechanics-header">
+      <div class="mechanics-icon">
+        <img src="./assets/images/lakbay_lokal_logo.png" width="42" height="42" aria-hidden="true" alt="">
+      </div>
+      <h3 class="h3 mechanics-title">Lakbay Lokal Mechanics</h3>
+    </div>
+
+    <ul class="mechanics-list">
+      <li><span class="highlight-dot"></span> Each booth has a designated space; exceeding this space will result in point deductions.</li>
+      <li><span class="highlight-dot"></span> Concessionaires will be evaluated on a single criterion, with clear voting instructions provided.</li>
+      <li><span class="highlight-dot"></span> Voting will take place throughout the event, with 2nd-year BTM students and attendees acting as judges.</li>
+      <li><span class="highlight-dot"></span> Each participant receives two stickers to vote for their preferred booths.</li>
+    </ul>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ3xa-CkYOWc02mkq1eLV7HrC4790q7TdV4xowx8Pmyweeug/viewform" target="_blank" class="mechanics-btn">
+      <span>Register Now</span>
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </a>
+  </div>
+</div>
+
+
+
+</section>
+
+<div class="triangle-divider"></div>
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Event Updates & Posts</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card modern-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/paw_news.jpg" width="416" height="240" loading="lazy"
+                  alt="Registration" class="img-cover">
+                <div class="card-date">March 18, 2025</div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">
+                  <a href="https://www.facebook.com/share/p/16EarDTSPt/" target="_blank">✩𝐏𝐚𝐰𝐬𝐡𝐢𝐨𝐧𝐢𝐬𝐭𝐚✩ Registration is now officially open! </a>
+                </h3>
+
+                <p class="card-text">
+                  Dress your pets in Filipino inspired outfits, from elegant Barong & Baro’t Saya to vibrant regional attire or iconic historical costumes.
+                </p>
+
+                <a href="https://www.facebook.com/share/p/16EarDTSPt/" target="_blank" class="btn-link">Read More</a>
+
+              </div>
+
+            </div>
+
+            <div class="blog-card modern-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/kulturun_news.jpg" width="416" height="240" loading="lazy"
+                  alt="Cultural Activities" class="img-cover">
+                <div class="card-date">March 12, 2025</div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">
+                  <a href="https://www.facebook.com/share/p/1BYdzi3icY/" target="_blank">✩𝐊𝐮𝐥𝐭𝐮𝐑𝐔𝐍 𝟐𝟎𝟐𝟓✩ 
+                    𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍 𝐈𝐒 𝐍𝐎𝐖 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋𝐋𝐘 𝐎𝐏𝐄𝐍!</a>
+                </h3>
+
+                <p class="card-text">
+                  Get ready to run like never before through the scenic paths of the Greenest University in the Philippines! 🍃
+                </p>
+
+                <a href="https://www.facebook.com/share/p/1Yxrbvt6Js/" target="_blank" class="btn-link">Read More</a>
+
+              </div>
+
+            </div>
+
+            <div class="blog-card modern-card">
+
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/hotel_news.jpg" width="416" height="240" loading="lazy"
+                  alt="Training Tips" class="img-cover">
+                <div class="card-date">Feb 25, 2025</div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">
+                  <a href="https://www.facebook.com/share/p/1Dp6psUTek/" target="_blank">📢𝑾𝒉𝒂𝒕'𝒔 𝒖𝒑, 𝑳𝒂𝒔𝒂𝒍𝒍𝒊𝒂𝒏𝒔. 𝑻𝒉𝒆 𝒄𝒐𝒖𝒏𝒕𝒅𝒐𝒘𝒏 𝒉𝒂𝒔 𝒃𝒆𝒈𝒖𝒏!⏳ </a>
+                </h3>
+
+                <p class="card-text">
+                  📌Pre-registration starts on February 26, 2025! Don’t miss your chance to be part of this exciting race! 🏃‍♂️💨
+                </p>
+
+                <a href="https://www.facebook.com/share/p/1Dp6psUTek/" target="_blank" class="btn-link">Read More</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <a href="https://www.facebook.com/dlsudkulturun" target="_blank" class="btn btn-primary">View All Posts</a>
+
+        </div>
+      </section>
+
+      <div class="triangle-divider"></div>
+
+
+
+
+
+      <!-- 
+        - #FOOTER
+      -->
+
+      <footer class="footer">
+
+        <div class="footer-top bg-dark">
+          <div class="container">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">
+                KULTURUN
+              </a>
+
+              <p class="footer-text">
+                Get ready to run like never before through the scenic paths of the Greenest University in the Philippines! 🍃
+              </p>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="https://www.facebook.com/dlsudkulturun" target="_blank" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/dlsud_kulturun/" target="_blank" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.tiktok.com/@dlsud_kulturun?_t=ZS-8u4Hkv2Hu2j&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAabOPM8qVlq6eMLooQb7n9sJcvgZZabKvNWZ5l9MWiYJGKvjzjFKh5_Bgtk_aem_q22brgxf9pByjRiPXJ7T7A" target="_blank" class="social-link">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title has-before">Our Links</p>
+              </li>
+
+              <li>
+                <a href="#home" class="footer-link">Home</a>
+              </li>
+
+              <li>
+                <a href="#class" class="footer-link">Events</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="footer-link">News</a>
+              </li>
+
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title has-before">Contact Us</p>
+              </li>
+
+              <li class="footer-list-item">
+                <div class="icon">
+                  <ion-icon name="location" aria-hidden="true"></ion-icon>
+                </div>
+
+                <address class="address footer-link">
+                  De La Salle University - Dasmariñas, DBB-B City of Dasmariñas Cavite, Philippines 4115
+                </address>
+              </li>
+
+              <li class="footer-list-item">
+                <div class="icon">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+
+                <a href="tel:+639072309195" class="footer-link">+63 907 230 9195</a>
+              </li>
+
+              <li class="footer-list-item">
+                <div class="icon">
+                  <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                </div>
+
+                <a href="mailto:kulturunsecretariat@gmail.com" class="footer-link">kulturunsecretariat@gmail.com</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title has-before">Newsletter</p>
+              </li>
+
+              <li>
+                <form action="" class="footer-form">
+                  <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required
+                    class="input-field">
+
+                  <button type="submit" class="btn btn-primary" aria-label="Submit">
+                    <ion-icon name="paper-plane-sharp" aria-hidden="true"></ion-icon>
+                  </button>
+                </form>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+
+            <p class="copyright">
+              &copy; 2025 KultuRUN. All Rights Reserved By <a href="https://www.facebook.com/dlsudkulturun" target="_blank" class="copyright-link">DSLU-Dasmarinas</a>
+            </p>
+
+            <ul class="footer-bottom-list">
+
+              <li>
+                <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+              </li>
+
+            </ul>
+
+            <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+              <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+      </footer>
+
+
+
+
+
+      <!-- 
+        - custom js link
+      -->
+      <script src="./assets/js/script.js" defer></script>
+
+      <!-- 
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
